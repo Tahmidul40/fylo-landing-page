@@ -11,7 +11,7 @@ section.testimonial {
 
   .test-left {
     padding-left: 80px;
-    width: 49.999%;
+    max-width: 49.999%;
 
     .test-left-top {
       padding-bottom: 50px;
@@ -93,9 +93,9 @@ section.testimonial {
       }
     }
   }
-}
 
-.test-right {
-  margin-right: 80px;
-  width: 49.999%;
+  .test-right {
+    margin-right: 80px;
+    max-width: 49.999%;
+  }
 }
